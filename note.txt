@@ -1,0 +1,11 @@
+git remote add origin https://github.com/quangisDev/demo-git.git
+=> liên kết local (laptop) và remote (github)
+
+git add -A
+=> thêm tất cả vào stagging
+git commit -m "message"
+=> tạo commit (xác nhận) với nội dung "message"
+git push -u origin main
+=> đẩy lần đầu (đẩy và publish nhánh main)
+git push
+=> đẩy commit lên remote
